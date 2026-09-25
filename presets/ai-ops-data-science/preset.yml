@@ -18,7 +18,7 @@ provides:
       name: "ai-ops.ds.review"
       file: "commands/ai-ops.ds.review.md"
       description: "Revisar evidencia y gates de Data Science"
-    - type: "artifact"
+    - type: "template"
       name: "ai-ops-ds-spec-template"
       file: "templates/ai-ops-ds-spec-template.md"
       description: "Plantilla de especificación Data Science"
