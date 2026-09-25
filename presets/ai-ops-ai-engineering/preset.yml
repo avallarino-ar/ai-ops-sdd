@@ -18,7 +18,7 @@ provides:
       name: "ai-ops.ai.review"
       file: "commands/ai-ops.ai.review.md"
       description: "Revisar evidencia y gates de AI Engineering"
-    - type: "artifact"
+    - type: "template"
       name: "ai-ops-ai-spec-template"
       file: "templates/ai-ops-ai-spec-template.md"
       description: "Plantilla de especificación AI Engineering"
