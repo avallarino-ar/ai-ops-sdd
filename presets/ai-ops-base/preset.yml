@@ -14,7 +14,7 @@ provides:
       name: "ai-ops.check"
       file: "commands/ai-ops.check.md"
       description: "Revisar principios comunes de entrega"
-    - type: "artifact"
+    - type: "template"
       name: "ai-ops-decision-template"
       file: "templates/ai-ops-decision-template.md"
       description: "Registro de decisiones"
