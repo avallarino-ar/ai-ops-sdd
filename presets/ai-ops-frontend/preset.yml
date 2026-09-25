@@ -18,7 +18,7 @@ provides:
       name: "ai-ops.front.review"
       file: "commands/ai-ops.front.review.md"
       description: "Revisar evidencia y gates de Frontend"
-    - type: "artifact"
+    - type: "template"
       name: "ai-ops-front-spec-template"
       file: "templates/ai-ops-front-spec-template.md"
       description: "Plantilla de especificación Frontend"
