@@ -1,0 +1,25 @@
+schema_version: "1.0"
+preset:
+  id: "ai-ops-ai-engineering"
+  name: "AI Ops AI Engineering"
+  version: "0.3.0"
+  description: "Guía corporativa SDD para AI Engineering"
+  author: "AI Ops Engineering"
+  license: "Proprietary"
+requires:
+  speckit_version: ">=0.9.0"
+provides:
+  templates:
+    - type: "command"
+      name: "ai-ops.ai.specify"
+      file: "commands/ai-ops.ai.specify.md"
+      description: "Crear especificación de AI Engineering"
+    - type: "command"
+      name: "ai-ops.ai.review"
+      file: "commands/ai-ops.ai.review.md"
+      description: "Revisar evidencia y gates de AI Engineering"
+    - type: "artifact"
+      name: "ai-ops-ai-spec-template"
+      file: "templates/ai-ops-ai-spec-template.md"
+      description: "Plantilla de especificación AI Engineering"
+tags: ["ai-ops", "ai-engineering"]

@@ -1,0 +1,22 @@
+schema_version: "1.0"
+bundle:
+  id: "ai-ops-ai-engineering"
+  name: "AI Ops AI Engineering"
+  version: "0.3.0"
+  role: "ai-engineering"
+  description: "Base de ingeniería y perfil AI Engineering"
+  author: "AI Ops Engineering"
+  license: "Proprietary"
+requires:
+  speckit_version: ">=0.9.0"
+  tools: []
+  mcp: []
+provides:
+  presets:
+    - id: "ai-ops-base"
+      version: "0.3.0"
+      priority: 20
+    - id: "ai-ops-ai-engineering"
+      version: "0.3.0"
+      priority: 10
+tags: ["ai-ops", "ai-engineering"]

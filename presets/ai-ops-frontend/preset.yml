@@ -1,0 +1,25 @@
+schema_version: "1.0"
+preset:
+  id: "ai-ops-frontend"
+  name: "AI Ops Frontend"
+  version: "0.3.0"
+  description: "Guía corporativa SDD para Frontend"
+  author: "AI Ops Engineering"
+  license: "Proprietary"
+requires:
+  speckit_version: ">=0.9.0"
+provides:
+  templates:
+    - type: "command"
+      name: "ai-ops.front.specify"
+      file: "commands/ai-ops.front.specify.md"
+      description: "Crear especificación de Frontend"
+    - type: "command"
+      name: "ai-ops.front.review"
+      file: "commands/ai-ops.front.review.md"
+      description: "Revisar evidencia y gates de Frontend"
+    - type: "artifact"
+      name: "ai-ops-front-spec-template"
+      file: "templates/ai-ops-front-spec-template.md"
+      description: "Plantilla de especificación Frontend"
+tags: ["ai-ops", "frontend"]

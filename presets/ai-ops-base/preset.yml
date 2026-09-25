@@ -1,0 +1,21 @@
+schema_version: "1.0"
+preset:
+  id: "ai-ops-base"
+  name: "AI Ops Engineering Base"
+  version: "0.3.0"
+  description: "Principios comunes, trazabilidad, privacidad y controles de entrega"
+  author: "AI Ops Engineering"
+  license: "Proprietary"
+requires:
+  speckit_version: ">=0.9.0"
+provides:
+  templates:
+    - type: "command"
+      name: "ai-ops.check"
+      file: "commands/ai-ops.check.md"
+      description: "Revisar principios comunes de entrega"
+    - type: "artifact"
+      name: "ai-ops-decision-template"
+      file: "templates/ai-ops-decision-template.md"
+      description: "Registro de decisiones"
+tags: ["ai-ops", "governance"]
